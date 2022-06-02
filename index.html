@@ -18,6 +18,20 @@
 </head>
 
 <body>
+    <script src="https://unpkg.com/blip-chat-widget" type="text/javascript"> 
+  </script>
+<script>
+    (function () {
+        window.onload = function () {
+            new BlipChat()
+            .withAppKey('dGVzdGVrb2Fvb3NrOmFkODhlOWQ2LTE3MjgtNDg2NC1iMWQyLTllNDhmNjFlMGZkMw==')
+            .withButton({"color":"#0324f7","icon":""})
+            .withCustomCommonUrl('https://matheus-fortes-fnxpt.chat.blip.ai/')
+            .build();
+        }
+    })();
+</script>
+    
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
         <div class="container"><a class="navbar-brand logo" href="#">TrustWeb</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
